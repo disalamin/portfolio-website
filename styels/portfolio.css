@@ -17,7 +17,7 @@
 .text-center{
     text-align: center;
 }
-.btn-primay{
+.btn-primary{
     background-color: #FD6E0A;
     font-weight: bold;
     color: white;
@@ -125,11 +125,58 @@ main{
 /* Skill Section Style Start */
 .skills-container{
     display: flex;
+    margin-top: 100px;
     gap: 24px;
-    
+    text-align: left;   
 }
 .skill{
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
+}
+/* resume section start */
+.resume{
+    margin: 30px 30px;
+}
+.resume-colum{
+    text-align: left;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.exprience-description{
+    color: #757575;
+}
+.exprience-sub-title{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+    color: #757575;
+}
+.resume hr{
+margin: 30px 5px;
+}
+.btn-resume{
+    margin: 50px 50px;
+}
+
+/* Footer Style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-colum{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 40px;
+    border-radius: 5px;
+    background-color:white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
